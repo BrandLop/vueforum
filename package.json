@@ -32,7 +32,10 @@
     "parserOptions": {
       "parser": "@babel/eslint-parser"
     },
-    "rules": {}
+    "rules": {},
+    "eslint.workingDirectories": [
+      {"mode": "auto"}
+    ]
   },
   "browserslist": [
     "> 1%",
